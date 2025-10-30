@@ -105,6 +105,5 @@ public class GUIProject {
                 "Basic GUI Project",
                 JOptionPane.INFORMATION_MESSAGE,
                 iconResult);
-        //test pull
     }
 }
