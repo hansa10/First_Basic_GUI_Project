@@ -19,16 +19,18 @@ public class GUIProject {
         // Icon / GIF
         ImageIcon iconWelcome = new ImageIcon(GUIProject.class.getResource("/images/respectfulblink.gif"));
         ImageIcon iconInfo = new ImageIcon(GUIProject.class.getResource("/images/shrug.png"));
-        ImageIcon iconInput = new ImageIcon(GUIProject.class.getResource("/images/pepespin.gif"));
+        ImageIcon iconInput = new ImageIcon(GUIProject.class.getResource("/images/cutegun.png"));
         ImageIcon iconCancel = new ImageIcon(GUIProject.class.getResource("/images/joesad.png"));
         ImageIcon iconEmpty = new ImageIcon(GUIProject.class.getResource("/images/joeangry.png"));
         ImageIcon iconNext = new ImageIcon(GUIProject.class.getResource("/images/doakes.png"));
         ImageIcon iconResult = new ImageIcon(GUIProject.class.getResource("/images/autistic.png"));
-        ImageIcon iconHello = new ImageIcon(GUIProject.class.getResource("/images/kirbywave.gif"));
+        ImageIcon iconHello = new ImageIcon(GUIProject.class.getResource("/images/caughtin4k.png"));
 
         //Rescale icon
         Image imgResult = iconResult.getImage().getScaledInstance(128,128, Image.SCALE_SMOOTH);
         iconResult = new ImageIcon(imgResult);
+        //Image imgInput = iconInput.getImage().getScaledInstance(128,128, Image.SCALE_SMOOTH);
+        //iconInput = new ImageIcon(imgInput);
 
         // === Dialog 1 - Welcome ===
         int dialog1 = JOptionPane.showConfirmDialog(
@@ -53,7 +55,7 @@ public class GUIProject {
         // === Dialog 3 - Input Nama ===
         String name = (String) JOptionPane.showInputDialog(
                 null,
-                "<html><body style='width:220px; font-family:Montserrat; font-size:15px;'>Please enter your name:</body></html>",
+                "<html><body style='width:220px; font-family:Montserrat; font-size:15px;'>please enter your name or something else will happen:</body></html>",
                 "Basic GUI Project",
                 JOptionPane.QUESTION_MESSAGE,
                 iconInput,
